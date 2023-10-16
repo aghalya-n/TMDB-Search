@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;0,900;1,600&family=Roboto+Slab:wght@200;300;400;500;700&display=swap');
+
+.navbar {
+    background-color: #770303;
+    color: rgb(231, 199, 21);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+    justify-content: space-around;
+    /* margin-bottom: 100px; */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 3px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+
+  nav a:hover {
+    color: #770303;
+    background-color: rgba(255, 239, 219, 0.7);
+    border-radius: 4px;
+    padding: 5px;
+    font-weight: 700;
+}
+  
+  nav ul li a {
+    text-decoration: none;
+    color: gold;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+  }

@@ -1,6 +1,10 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;0,900;1,600&family=Roboto+Slab:wght@200;400;500;700&display=swap');
+
+/* .App-body {
   text-align: center;
-}
+  font-family: 'Roboto Slab', serif;
+  background-color: rgb(40, 99, 150);
+} */
 
 .App-logo {
   height: 40vmin;
