@@ -25,7 +25,7 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-      <Router>
+      <Router basename='/mp2'>
         <Routes>
           <Route path="/" element={<Static />}>
             <Route index element={<Home />} />
